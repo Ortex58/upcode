@@ -79,7 +79,7 @@ $(window).scroll(function(){
     $('#contact').each(function(){
         if($(this).offset().top-100 < $(window).scrollTop()){
             $('a[href="#contact"]').addClass('active').siblings().removeClass('active');
-            $('a[href="#contact"]').addClass('active').siblings().removeClass('active');
+
         }
         else {
             $('a[href="#contact"]').removeClass('active');
