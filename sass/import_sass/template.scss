@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+// setions title
+.section__head {
+    padding: 80px 5px;
+}
+.section__head--title {
+    font-size: 35px;
+    line-height: 24px;
+    color: #232323;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px 0;
+    b {
+        color: #009dda;
+        white-space:nowrap;
+    }
+}
+.section__head--paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Lato-Regular', sans-serif;
+    text-align: center;
+    max-width: 683px;
+    margin: 0 auto;
+}
+// media query
+@media (max-width: 520px) {
+    .section__head--title {
+        font-size: 18px;
+    }
+    .section__head--paragraph {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,258 @@
+.contact {
+  position: relative;
+  height: 630px;
+  background-color: burlywood; }
+  .contact__map {
+    position: absolute;
+    width: 100%;
+    height: 634px; }
+
+.wrapper-contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65); }
+
+.contact__form {
+  display: flex;
+  justify-content: space-between;
+  padding: 85px 115px 80px 65px;
+  position: relative;
+  max-width: 762px;
+  height: auto;
+  background: rgba(26, 26, 26, 0.65);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.form-name {
+  display: flex;
+  width: 490px;
+  justify-content: space-between; }
+  .form-name input {
+    position: relative;
+    padding-left: 20px;
+    outline: none;
+    width: 217px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5); }
+    .form-name input::-webkit-input-placeholder {
+      color: #b7b7b7;
+      font-family: 'Lato-Regular', sans-serif;
+      font-size: 16px;
+      font-weight: normal; }
+    .form-name input:-moz-placeholder {
+      color: #b7b7b7;
+      font-family: 'Lato-Regular', sans-serif;
+      font-size: 16px;
+      font-weight: normal; }
+    .form-name input::-moz-placeholder {
+      color: #b7b7b7;
+      font-family: 'Lato-Regular', sans-serif;
+      font-size: 16px;
+      font-weight: normal; }
+    .form-name input:-ms-input-placeholder {
+      color: #b7b7b7;
+      font-family: 'Lato-Regular', sans-serif;
+      font-size: 16px;
+      font-weight: normal; }
+
+label[for="email"] {
+  position: relative; }
+
+label[for="email"]::after {
+  content: '\f0d7';
+  top: 17%;
+  right: 9%;
+  position: absolute;
+  font-size: 16px;
+  line-height: 31px;
+  font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free';
+  font-weight: 900;
+  cursor: pointer;
+  color: #fff; }
+
+.form-message {
+  margin-top: 13px;
+  display: flex;
+  width: 490px; }
+
+#message {
+  padding: 15px 0 0 20px;
+  outline: none;
+  width: 100%;
+  height: 125px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  resize: none; }
+  #message::-webkit-input-placeholder {
+    color: #b7b7b7;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal; }
+  #message:-moz-placeholder {
+    color: #b7b7b7;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal; }
+  #message::-moz-placeholder {
+    color: #b7b7b7;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal; }
+  #message:-ms-input-placeholder {
+    color: #b7b7b7;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal; }
+
+.form-name input, #message {
+  color: #fff;
+  font-family: 'Lato-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: normal; }
+
+.form-button {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Lato-Regular', sans-serif; }
+
+.like-checkbox {
+  display: flex;
+  align-items: center; }
+  .like-checkbox input[type="checkbox"] {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    margin: 0; }
+    .like-checkbox input[type="checkbox"]:not(checked) {
+      position: absolute;
+      opacity: 0; }
+    .like-checkbox input[type="checkbox"]:not(checked) + label {
+      position: relative;
+      padding: 0 0 0 32px; }
+    .like-checkbox input[type="checkbox"]:not(checked) + label:before {
+      content: '';
+      position: absolute;
+      padding: 2px;
+      left: 0;
+      top: -5px;
+      width: 20px;
+      height: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: transparent; }
+    .like-checkbox input[type="checkbox"]:checked + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.65); }
+    .like-checkbox input[type="checkbox"] + label {
+      cursor: pointer; }
+
+.like-checkbox label {
+  color: #b7b7b7; }
+
+.form-btn {
+  cursor: pointer;
+  width: 122px;
+  height: 54px;
+  background-color: #ffff00;
+  border: none;
+  font-size: 16px;
+  font-family: 'Lato-Regular', sans-serif;
+  outline: none; }
+
+.contact__adress p {
+  margin: 0;
+  color: #f3f3f3;
+  font-size: 16px;
+  font-family: 'Lato-Regular', sans-serif;
+  font-weight: 300; }
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footer p {
+    margin: 0;
+    padding-left: 32px;
+    font-size: 16px;
+    font-family: 'Lato-Regular', sans-serif;
+    font-weight: 300;
+    color: #7a7a7a; }
+  .footer .social {
+    padding-right: 12px;
+    font-size: 21px; }
+    .footer .social span {
+      margin: 0 20px; }
+
+.facebook a {
+  color: #6782b8; }
+
+.google a {
+  color: #e86b53; }
+
+.twiter a {
+  color: #71d6fa; }
+
+.dribble a {
+  color: #e9779d; }
+
+@media (max-width: 880px) {
+  .contact__adress p {
+    display: none; }
+  .contact__form {
+    justify-content: center;
+    padding: 85px 65px 80px 65px; } }
+
+@media (max-width: 680px) {
+  .contact__form {
+    padding: 85px 0 65px 0; }
+  .form-name {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .form-name #email {
+      margin-top: 13px; }
+  label[for="email"]::after {
+    top: 36%; }
+  .form-message {
+    justify-content: center; }
+  #message {
+    width: 217px; }
+  .form-button {
+    flex-direction: column; }
+  .form-btn {
+    margin-top: 13px; }
+  .footer {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    height: auto;
+    min-height: 60px;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .footer p {
+      padding-left: 19px; } }
+
+@media (max-width: 520px) {
+  .form-name {
+    width: 100%; }
+  .form-message {
+    width: 100%; }
+  .footer {
+    padding: 10px 0; }
+    .footer p {
+      padding-right: 19px; } }
